@@ -5,7 +5,7 @@ account: richfriendshiny
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 16442273
-bundleId: 11453299
+bundleId: 11453677
 url: https://richfriendshiny.shinyapps.io/liverworts-optimised/
 version: 1
 asMultiple: FALSE

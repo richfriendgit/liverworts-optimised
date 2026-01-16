@@ -4,7 +4,7 @@ library(utils)   # for URLencode
 
 # ---- Version metadata (update these on each release) ----
 APP_NAME    <- "Common Liverwort ID App"
-APP_VERSION <- "v1.1.7 – Optimized Images"
+APP_VERSION <- "v1.2.0 – Balanced Image Sizing"
 APP_DATE    <- "2026-01-16"
 
 # --- GitHub locations ---
@@ -82,35 +82,42 @@ ui <- fluidPage(
       /* Sidebar padding */
       .well { padding: 10px 10px 8px 10px !important; }
 
-/* Image responsive + centred + fixed size */
-.img-wrap { text-align: center; }
-.img-wrap img { 
-  width: 100%; 
-  max-width: 800px;
-  height: 600px;
-  object-fit: contain;
-  border-radius: 6px; 
-}
+      /* Image responsive + centred + fixed size */
+      .img-wrap { 
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .img-wrap img { 
+        width: 100%; 
+        max-width: 800px;
+        height: 600px;
+        object-fit: contain;
+        border-radius: 6px;
+        display: block;
+        margin: 0 auto;
+      }
 
       /* Photographer credit */
       .photo-credit {
-        margin-top: 6px;
+        margin-top: 0px;
         font-size: 12px;
         color: rgba(0, 0, 0, 0.55);
         font-style: italic;
         text-align: center;
       }
 
-/* Quiz modal styles */
-.quiz-wrap { text-align: center; }
-.quiz-wrap img { 
-  max-width: 90%;
-  max-height: 500px;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  border-radius: 6px; 
-}
+      /* Quiz modal styles - balanced sizing */
+      .quiz-wrap { text-align: center; }
+      .quiz-wrap img { 
+        width: auto;
+        max-width: 90%;
+        height: 450px;
+        object-fit: contain;
+        border-radius: 6px;
+        margin: 0 auto;
+        display: block;
+      }
       .quiz-ans  { margin-top: 8px; text-align: left; }
       .quiz-ans h4 { color:#2E7D32; margin: 6px 0; }
       .quiz-buttons { display:flex; gap:10px; justify-content:center; margin-top:10px; flex-wrap:wrap; }
@@ -120,7 +127,7 @@ ui <- fluidPage(
   # Custom header row (title left, version right)
   div(class = "app-header",
       h2(APP_NAME),
-      span(id = "version-inline", "v1.1.7")
+      span(id = "version-inline", "v1.2.0")
   ),
   
   sidebarLayout(
