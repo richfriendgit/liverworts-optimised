@@ -5,9 +5,9 @@ account: richfriendshiny
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 16442273
-bundleId: 11453068
+bundleId: 11453299
 url: https://richfriendshiny.shinyapps.io/liverworts-optimised/
 version: 1
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: .gitattributes|Aneuria pinguis.jpg|Bazzania trilobata.jpg|Calypogeia arguta.jpg|Calypogeia muelleriana.jpg|Cephalozia bicuspidata.jpg|Chiloscyphus polyanthos.jpg|Conocephalum conicum.jpg|Diplophyllum albicans.jpg|Liverworts.csv|Lophocolea bidentata.jpg|Lophozia ventricosa.jpg|Lunularia cruciata.jpg|Marchantia polymorpha.jpg|Metzgeria furcata.jpg|Odontoschisma sphagni.jpg|Orthocaulis floerkei.jpg|Pellia endiviifolia.jpg|Pellia epiphillia.jpg|Preissia quadrata.jpg|Ptilidium ciliare.jpg|Radula complanata.jpg|Reboulia hemisphaerica.jpg|Scapania undulata.jpg
+ignoredFiles: .gitattributes|Aneuria pinguis.jpg|Bazzania trilobata.jpg|Calypogeia arguta.jpg|Calypogeia muelleriana.jpg|Cephalozia bicuspidata.jpg|Chiloscyphus polyanthos.jpg|Conocephalum conicum.jpg|Diplophyllum albicans.jpg|Lophocolea bidentata.jpg|Lophozia ventricosa.jpg|Lunularia cruciata.jpg|Marchantia polymorpha.jpg|Metzgeria furcata.jpg|Odontoschisma sphagni.jpg|Orthocaulis floerkei.jpg|Pellia endiviifolia.jpg|Pellia epiphillia.jpg|Preissia quadrata.jpg|Ptilidium ciliare.jpg|Radula complanata.jpg|Reboulia hemisphaerica.jpg|Scapania undulata.jpg
